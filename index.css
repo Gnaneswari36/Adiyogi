@@ -1,0 +1,41 @@
+.d-flex {
+    width:800px;
+    height:30px;
+}
+.gr {
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+}
+#gr1 ul a{
+    display: flex;
+    gap: 40px;
+    text-decoration-style: none;
+    
+}
+
+.navy a{
+    text-decoration: none;
+    color: rgb(80, 157, 56);
+    
+}
+
+.navy ul{
+    display: flex;
+    gap: 40px;
+}
+.main2 {
+    background-color: rgb(218, 215, 215);
+}
+#gr4 {
+    background-color: rgb(208, 206, 206);
+}
+.unorder {
+    text-align: center;
+}
+.video1 {
+    display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
