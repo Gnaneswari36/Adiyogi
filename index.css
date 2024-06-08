@@ -1,41 +1,56 @@
 .d-flex {
-    width:800px;
-    height:30px;
-}
-.gr {
-    display: flex;
-    gap: 100px;
-    flex-direction: row;
-}
-#gr1 ul a{
-    display: flex;
-    gap: 40px;
-    text-decoration-style: none;
-    
-}
-
-.navy a{
-    text-decoration: none;
-    color: rgb(80, 157, 56);
-    
-}
-
-.navy ul{
-    display: flex;
-    gap: 40px;
-}
-.main2 {
-    background-color: rgb(218, 215, 215);
-}
-#gr4 {
-    background-color: rgb(208, 206, 206);
+    width: 800px;
 }
 .unorder {
-    text-align: center;
+    display: inline;
+    justify-content: center;
 }
-.video1 {
+.well{
+    background-color: rgb(77, 27, 27);
     display: flex;
-  justify-content: center;
-  text-align: center;
-
+    justify-content: space-around;
+    padding: 40px;
+    margin: 20px;
 }
+.well img:hover {
+    border:1px;
+    border-radius: 20px;
+}
+
+.expert {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin:5px;
+}
+.expert img {
+    border:1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+h4 {
+    color: darkred;
+}
+
+.world {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: rgb(205, 208, 211);
+    font-family: cursive;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li{
+    text-decoration: none;
+}
+.sameway1 p {
+    display:block;
+   position:absolute;
+   padding:40px;
+   margin:30px;
+}
+
+
+

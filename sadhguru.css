@@ -1,0 +1,19 @@
+#same {
+   display: flex;
+   justify-content:space-evenly;
+   border: 1px;
+}
+.some12 {
+    text-decoration: none;
+    font-family: cursive;
+    background-color: rgb(39, 8, 8);
+    color: rgb(162, 162, 159);
+    padding: 10px;
+}
+#lastone {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 80, 80);
+    padding: 10px; 
+    color:rgb(0, 0, 0);
+}

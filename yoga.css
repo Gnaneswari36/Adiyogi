@@ -1,0 +1,20 @@
+.maintain {
+    font-family: cursive;
+    background-color: rgb(10, 232, 239);
+    padding: 10px;
+    margin:8px;
+    border:1px;
+    border-radius: 10px;
+}
+#main {
+    display: flex;
+    justify-content: space-evenly;
+}
+#lastone {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28, 7, 7);
+    padding: 10px; 
+    color:rgb(181, 187, 193); 
+}
+
