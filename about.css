@@ -7,33 +7,11 @@
      justify-content: space-around;
 }
 .flexcontainer {
-   padding: 30px;
-   margin:60px;
    text-align: center;
-   display: inline-block;
-    background-color: rgb(218, 255, 218);
+    background-color: rgb(60, 26, 26);
     border: solid 1px;
     border-radius: 10px;
     font-family: cursive;
     text-indent: 10px;
-    color:rgb(34, 6, 55);
+    color:rgb(255, 255, 255);
 }
-.distance,li {
-     font-family:'Times New Roman', Times, serif;
-    display:flex;
-    justify-content:space-around;
-    text-decoration: none;
-}
-#g2{background-color: rgb(195, 74, 74);
-  border: 1px;
-  border-radius: 8px;   
-}
-#lastone {
-     display: flex;
-     justify-content: space-between;
-     background-color: rgb(28, 7, 7);
-     padding: 10px; 
-     color:rgb(181, 187, 193); 
- }
-
-

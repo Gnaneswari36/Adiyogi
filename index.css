@@ -1,55 +1,51 @@
-.d-flex {
-    width: 800px;
+* {
+    margin:0;
+    padding:0;
 }
-.unorder {
-    display: inline;
-    justify-content: center;
+section {
+    padding: 20px 0;
 }
-.well{
-    background-color: rgb(77, 27, 27);
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: 20px;
+.row {
+    background-color: rgb(58, 17, 17);
+    padding: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
-.well img:hover {
-    border:1px;
-    border-radius: 20px;
+#contact {
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 101, 0.221);
 }
-
-.expert {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin:5px;
+.mmk1 ,img {
+   text-align: center;
+   border: 1px;
+   border-radius: 5px;
 }
-.expert img {
-    border:1px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-h4 {
-    color: darkred;
+input:hover {
+   background-color: aquamarine;
 }
 
-.world {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: rgb(205, 208, 211);
-    font-family: cursive;
-    padding: 10px;
-    text-decoration: none;
-    cursor: pointer;
+.footer {
+    background-color: #070606;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family:cursive;
 }
-ul li{
+.footer h2 {
+    margin-top: 0;
+}
+.footer a {
+    color: #76c7c0;
     text-decoration: none;
 }
-.sameway1 p {
-    display:block;
-   position:absolute;
-   padding:40px;
-   margin:30px;
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer p, .footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 
