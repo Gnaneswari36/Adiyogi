@@ -15,3 +15,11 @@
     text-indent: 10px;
     color:rgb(255, 255, 255);
 }
+
+@media screen and (min-width: 768px) {
+     .css-1wj96e5 {
+          
+         width: 467%;
+         height: 480px;
+     }
+}

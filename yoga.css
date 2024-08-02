@@ -1,24 +1,54 @@
-/* .maintain {
-    font-family: cursive;
-    background-color: rgb(10, 232, 239);
-    width: 1500px;
-    height:800px;
-    padding: 2px;
-    margin:8px;
-    border:1px;
-    border-radius: 10px;
-}
-.img3 { 
-    height: 450px;
-    width: 1500px;
-    margin: 8px;
-}
-.img2 {
-    width: 1500px;
-    margin: 8px;
-}
-#main {
+.login{
+    background-image: url(./assests/login1.jpg);
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
-}
- */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    height: 80vh;  
+  }
+  form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f8f9f8; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(229, 227, 227, 0.5);
+    /* background: transparent; */
+    transition: transparent;
+  }
+  .login-content{
+    margin-bottom: 20px;
+  }
+  label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+  }
+  input[type="text"],
+  input[type="password"]{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .sub-mit{
+    display: inline-block;
+    background-color: rgba(199, 121, 121, 0.74);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .sub-mit:hover{
+    background-color: #d26ceea1;
+  }
+  .connect{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
