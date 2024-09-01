@@ -12,3 +12,11 @@
    text-align: center;
    
 }
+.medium-height {
+    height: 200px; 
+  }
+  .no-decoration {
+    text-decoration: none;
+    color: inherit; 
+}
+  
